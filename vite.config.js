@@ -7,5 +7,7 @@ export default defineConfig({
   test: {
     // jsdom for vite
     environment: 'jsdom',
+    globals: true,
+    setupFiles: './tests/setup.js'
   }
 })
