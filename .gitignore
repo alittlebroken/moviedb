@@ -25,3 +25,6 @@ dist-ssr
 
 # Macos specific files
 ._*
+
+# Environment files
+.env
