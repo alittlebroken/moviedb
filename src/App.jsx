@@ -1,3 +1,4 @@
+import Movies from "./features/Movies/Movies"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      
+      <Movies />
     </>
   )
 }
